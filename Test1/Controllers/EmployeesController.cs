@@ -51,12 +51,6 @@ namespace Test1.Controllers
         [Route("update")]
         public async Task<IActionResult> Update(Employee Employee)
         {
-            //var employee = await _context.Employees.FirstOrDefaultAsync(c => c.ID == ID);
-
-            //if (ID != Employee.ID)
-            //{
-            //    return NotFound();
-            //}
             try
             {
                 _context.Update(Employee);

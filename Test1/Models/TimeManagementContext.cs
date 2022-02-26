@@ -8,5 +8,6 @@ namespace Test1.Models
         }
 
         public DbSet<Employee> Employees { get; set; }
+        public DbSet<Login> Login { get; set; }
     }
 }
